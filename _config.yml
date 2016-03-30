@@ -21,4 +21,4 @@ github_username:  jekyll
 markdown: kramdown
 
 # Code highlighting
-highlighter: true
+rouge: true
