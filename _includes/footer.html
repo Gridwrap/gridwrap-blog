@@ -1,38 +1,49 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<footer>
+  <div class="wrap">
+    <div class="main">
+      <ul class="links site-links">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">About</a></li>
+        <br><br>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+      <p class="copyright">&copy; 2016 Gridwrap. All rights reserved.</p>
+      <ul class="links social-links">
+        <li>
+          <a href="http://twitter.com/gridwrap">
+            <svg>
+              <use  xlink:href='<%= gulp_asset_path("icons/icons.svg") %>#twitter' ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="http://facebook.com/gridwrap">
+            <svg>
+              <use  xlink:href='<%= gulp_asset_path("icons/icons.svg") %>#facebook' ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="http://pinterest.com/gridwrap">
+            <svg>
+              <use  xlink:href='<%= gulp_asset_path("icons/icons.svg") %>#pinterest' ></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
-
+    <div class="app">
+      <a class="link-wrap" href="#">
+        <div class="icon"></div>
+        <p class="get-app">
+          Get the Gridwrap App<br/>
+          <span class="learn-more" >Learn more</span>
+        </p>
+      </a>
+    </div>
   </div>
-
 </footer>

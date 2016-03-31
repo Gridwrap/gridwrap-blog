@@ -1,0 +1,12 @@
+@mixin noSelect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  user-select: none; 
+}
+
+@mixin truncateString {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
