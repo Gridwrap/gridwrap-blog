@@ -18,18 +18,15 @@ layout: default
       <img src="{{ site.url }}/assets/images/placeholder.jpg" alt=""/>
     {% endif %}
     <div class="content">{{ content }}</div>
-
-    {% if site.related %}
-        {% include related.html %}
-    {% endif %}
-    
     <!-- {% include author.html %} -->
-    
+
     <!-- {% if site.disqus %}
         {% include disqus.html %}
     {% endif %} -->
 
   </div>
 </div>
-
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
 {% include footer.html %}

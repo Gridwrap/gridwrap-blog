@@ -1,6 +1,12 @@
 @import "../partials/variables.scss";
 @import "../partials/mixins.scss";
 
+.content-wrap {
+  max-width: 1120px;
+  position: relative;
+  margin: 0 auto;
+}
+
 /* Blog */
 
 h2 {
@@ -30,13 +36,11 @@ article.post.even:nth-child(even) {
   }
 }
 
+
+
 .post {
   padding: 120px 30px;
-  .content-wrap {
-    max-width: 1120px;
-    position: relative;
-    margin: 0 auto;
-  }
+
   .tags{
     margin-left: 20px;
   }
@@ -127,21 +131,17 @@ article.post.even:nth-child(even) {
 .related {
   background: #EFEFEF;
   width: 100%;
+  padding: 50px 30px;
   h2 {
-    color: $primary-color;
-    margin: 60px 0 10px 0;
-  }
-  ul {
-    list-style: square;
+    color: black;
+    margin: 0px 0 10px 0;
   }
   .relatedPost {
     font-size: 20px;
     margin-left: 30px;
     a{
-      color: #777;
-      &:hover{
-        color: black;
-      }
+      color: $primary-color;
+      text-decoration: underline;
     }
   }
 }

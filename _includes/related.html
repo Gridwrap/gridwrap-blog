@@ -1,4 +1,5 @@
 <div class="related">
+  <div class="content-wrap">
     {% assign hasSimilar = '' %}
     {% for post in site.posts  %}
         {% assign postHasSimilar = false %}
@@ -25,4 +26,5 @@
     {% if hasSimilar.size > 0 %}
         </ul>
     {% endif %}
+  </div>
 </div>
