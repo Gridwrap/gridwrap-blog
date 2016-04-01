@@ -14,7 +14,7 @@ summary: Ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laborio
 
 You can pick as item to see how to apply in markdown.
 
-### Comum Elements
+### Commun Elements
 - [Basic formatting](#basic-formatting)
 - [Headings](#headings)
 - [Lists](#lists)
@@ -133,20 +133,20 @@ It's sometimes handy for breaking things up.
 Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
-![Markdowm Image][/image/url]
+![Markdowm Image][/assets/images/placeholder.jpg]
 {% endhighlight %}
 
-![Markdowm Image][6]
+![Markdowm Image][/assets/images/placeholder.jpg]
 
 *Figure Caption*?
 
 {% highlight raw %}
 ![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
+<figcaption class="caption">Photo by John Appleseed</figcaption>
 {% endhighlight %}
 
 ![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
+<figcaption class="caption">Photo by John Appleseed</figcaption>
 
 *Bigger Images*?
 
@@ -214,4 +214,4 @@ $(window).scroll(function() {
 [3]: http://www.markitdown.net/
 [4]: http://daringfireball.net/projects/markdown/basics
 [5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+[6]: http://blog.gridwrap.com/assets/images/placeholder.jpg

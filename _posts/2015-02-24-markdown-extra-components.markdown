@@ -50,7 +50,7 @@ Like the [Medium](https://medium.com/) component.
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="{{ site.url }}/assets/images/placeholder.jpg" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
@@ -62,7 +62,7 @@ Like the [Medium](https://medium.com/) component.
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="{{ site.url }}/assets/images/placeholder.jpg" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
@@ -80,7 +80,7 @@ Like the [Medium](https://medium.com/) component.
     </div>
 
     <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="{{ site.url }}/assets/images/placeholder.jpg" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 </div>
@@ -92,7 +92,7 @@ Like the [Medium](https://medium.com/) component.
     </div>
 
     <div class="toright">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="{{ site.url }}/assets/images/placeholder.jpg" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 </div>
@@ -126,10 +126,10 @@ You can add a especial *hr* to your text.
 You can add Gists from github.
 
 {% highlight raw %}
-{ % gist sergiokopplin/5afb058da029a13de73e % }
+{ %  gist jbuchbinder/f77e20dbe85c537ae68bae8faf0b3e44 % }
 {% endhighlight %}
 
-{% gist sergiokopplin/5afb058da029a13de73e %}
+{% gist jbuchbinder/f77e20dbe85c537ae68bae8faf0b3e44 %}
 
 ---
 
@@ -168,10 +168,10 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 **Example**
 
 {% highlight html %}
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" src="https://www.youtube.com/embed/IJIAOosI6js" frameborder="0" allowfullscreen></iframe>
 {% endhighlight %}
 
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" src="https://www.youtube.com/embed/IJIAOosI6js" frameborder="0" allowfullscreen></iframe>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
